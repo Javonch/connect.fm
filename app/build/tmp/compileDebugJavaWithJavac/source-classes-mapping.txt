@@ -1,0 +1,12 @@
+com/example/spotify_framework/FirstFragment.java
+ com.example.spotify_framework.FirstFragment
+ com.example.spotify_framework.FirstFragment$1
+com/example/spotify_framework/MainActivity.java
+ com.example.spotify_framework.MainActivity
+ com.example.spotify_framework.MainActivity$1
+ com.example.spotify_framework.MainActivity$2
+com/example/spotify_framework/SecondFragment.java
+ com.example.spotify_framework.SecondFragment
+ com.example.spotify_framework.SecondFragment$1
+com/example/connectfm/BuildConfig.java
+ com.example.connectfm.BuildConfig

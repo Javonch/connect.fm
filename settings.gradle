@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name = "connect.fm"
+rootProject.name = "cfm"

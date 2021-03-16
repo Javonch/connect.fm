@@ -8,7 +8,7 @@ public class Song {
     private int bpm;
     private Genre genre;
 
-    public void Song() {
+    public void Song(String uri) {
 
     }
 

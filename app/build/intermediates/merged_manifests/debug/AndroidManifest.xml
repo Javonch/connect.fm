@@ -13,6 +13,8 @@
         <package android:name="com.example.cfm" />
     </queries>
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -23,6 +25,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Cfm" >
         <activity
+            android:name="com.spotify.sdk.android.authentication.AuthCallbackActivity"
+            android:exported="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="@string/com_spotify_sdk_redirect_host"
+                    android:scheme="@string/com_spotify_sdk_redirect_scheme" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.spotify.sdk.android.authentication.LoginActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+        <activity
             android:name="com.example.cfm.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
@@ -30,6 +51,10 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name="com.spotify.sdk.android.auth.LoginActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
         </activity>
     </application>
 

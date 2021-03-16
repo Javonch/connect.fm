@@ -1,3 +1,5 @@
+com/example/spotify_framework/Auth/SpotifyLogin.java
+ com.example.spotify_framework.Auth.SpotifyLogin
 com/example/cfm/ui/dashboard/DashboardViewModel.java
  com.example.cfm.ui.dashboard.DashboardViewModel
 com/example/cfm/ui/dashboard/DashboardFragment.java

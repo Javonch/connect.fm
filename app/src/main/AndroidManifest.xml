@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-<<<<<<< HEAD
-    package="com.example.connectfm">
+    package="com.example.cfm">
     <queries>
         <package android:name="com.spotify.music" />
+        <package android:name="com.example.cfm"/>
     </queries>
-=======
-    package="com.example.cfm">
->>>>>>> dan
+
 
     <application
         android:allowBackup="true"
@@ -15,29 +13,15 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-<<<<<<< HEAD
-        android:theme="@style/Theme.Connectfm">
-        <activity
-            android:name="com.example.spotify_framework.MainActivity"
-            android:label="@string/title_activity_main"
-            android:theme="@style/Theme.Connectfm.NoActionBar">
-            <intent-filter >
-                <action android:name="android.intent.action.MAIN" />
-=======
         android:theme="@style/Theme.Cfm">
+
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
->>>>>>> dan
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
     </application>
-<<<<<<< HEAD
-=======
-
->>>>>>> dan
 </manifest>

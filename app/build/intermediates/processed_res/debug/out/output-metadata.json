@@ -4,7 +4,7 @@
     "type": "PROCESSED_RES",
     "kind": "Directory"
   },
-  "applicationId": "com.example.connectfm",
+  "applicationId": "com.example.cfm",
   "variantName": "processDebugResources",
   "elements": [
     {

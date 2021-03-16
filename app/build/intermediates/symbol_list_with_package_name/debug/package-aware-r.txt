@@ -1,4 +1,4 @@
-com.example.connectfm
+com.example.cfm
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -1264,6 +1264,8 @@ dimen abc_text_size_subtitle_material_toolbar
 dimen abc_text_size_title_material
 dimen abc_text_size_title_material_toolbar
 dimen action_bar_size
+dimen activity_horizontal_margin
+dimen activity_vertical_margin
 dimen appcompat_dialog_background_inset
 dimen cardview_compat_inset_shadow
 dimen cardview_default_elevation
@@ -1327,7 +1329,6 @@ dimen design_tab_text_size_2line
 dimen design_textinput_caption_translate_y
 dimen disabled_alpha_material_dark
 dimen disabled_alpha_material_light
-dimen fab_margin
 dimen fastscroll_default_thickness
 dimen fastscroll_margin
 dimen fastscroll_minimum_range
@@ -1680,6 +1681,8 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable ic_clock_black_24dp
+drawable ic_dashboard_black_24dp
+drawable ic_home_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -1687,6 +1690,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_notifications_black_24dp
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -1727,7 +1731,6 @@ id BOTTOM_END
 id BOTTOM_START
 id CTRL
 id FUNCTION
-id FirstFragment
 id META
 id NO_DEBUG
 id SHIFT
@@ -1735,7 +1738,6 @@ id SHOW_ALL
 id SHOW_PATH
 id SHOW_PROGRESS
 id SYM
-id SecondFragment
 id TOP_END
 id TOP_START
 id accelerate
@@ -1772,8 +1774,6 @@ id accessibility_custom_action_6
 id accessibility_custom_action_7
 id accessibility_custom_action_8
 id accessibility_custom_action_9
-id action_FirstFragment_to_SecondFragment
-id action_SecondFragment_to_FirstFragment
 id action_bar
 id action_bar_activity_content
 id action_bar_container
@@ -1814,8 +1814,6 @@ id blocking
 id bottom
 id bounce
 id buttonPanel
-id button_first
-id button_second
 id cache_measures
 id cancel_button
 id center
@@ -1886,7 +1884,6 @@ id enterAlwaysCollapsed
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
-id fab
 id fade
 id fill
 id fill_horizontal
@@ -1959,6 +1956,7 @@ id material_value_index
 id message
 id middle
 id mini
+id mobile_navigation
 id month_grid
 id month_navigation_bar
 id month_navigation_fragment_toggle
@@ -1991,10 +1989,15 @@ id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
 id nav_controller_view_tag
-id nav_graph
+id nav_host_fragment
 id nav_host_fragment_container
+id nav_view
+id navigation_dashboard
 id navigation_header_container
+id navigation_home
+id navigation_notifications
 id never
+id new_playlist
 id noScroll
 id none
 id normal
@@ -2017,6 +2020,12 @@ id pathRelative
 id peekHeight
 id percent
 id pin
+id plist_cover
+id plist_description
+id plist_disliked_songs_count
+id plist_liked_song_count
+id plist_recycler
+id plist_title
 id position
 id postLayout
 id progress_circular
@@ -2106,23 +2115,23 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id text_dashboard
+id text_home
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
+id text_notifications
 id textinput_counter
 id textinput_error
 id textinput_helper_text
 id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
-id textview_first
-id textview_second
 id time
 id title
 id titleDividerNoCustom
 id title_template
 id toggle
-id toolbar
 id top
 id topPanel
 id touch_outside
@@ -2140,6 +2149,7 @@ id unlabeled
 id up
 id useLogo
 id view_offset_helper
+id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
 id withText
@@ -2226,8 +2236,9 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
-layout fragment_first
-layout fragment_second
+layout fragment_dashboard
+layout fragment_home
+layout fragment_notifications
 layout material_chip_input_combo
 layout material_clock_display
 layout material_clock_display_divider
@@ -2276,6 +2287,7 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout playlist_recyclerview
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
@@ -2294,9 +2306,10 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
+menu bottom_nav_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
-navigation nav_graph
+navigation mobile_navigation
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description
 string abc_action_bar_up_description
@@ -2338,9 +2351,6 @@ string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
-string first_fragment_label
-string hello_first_fragment
-string hello_second_fragment
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string item_view_role_description
@@ -2396,17 +2406,16 @@ string mtrl_picker_toggle_to_text_input_mode
 string mtrl_picker_toggle_to_year_selection
 string nav_app_bar_navigate_up_description
 string nav_app_bar_open_drawer_description
-string next
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
-string previous
 string search_menu_title
-string second_fragment_label
 string status_bar_notification_info_overflow
-string title_activity_main
+string title_dashboard
+string title_home
+string title_notifications
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style AndroidThemeColorAccentYellow
@@ -2816,9 +2825,9 @@ style Theme_AppCompat_Light_Dialog_MinWidth
 style Theme_AppCompat_Light_DialogWhenLarge
 style Theme_AppCompat_Light_NoActionBar
 style Theme_AppCompat_NoActionBar
-style Theme_Connectfm
+style Theme_Cfm
+style Theme_Cfm_NoActionBar
 style Theme_Connectfm_AppBarOverlay
-style Theme_Connectfm_NoActionBar
 style Theme_Connectfm_PopupOverlay
 style Theme_Design
 style Theme_Design_BottomSheetDialog

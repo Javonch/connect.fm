@@ -3,9 +3,8 @@ package com.example.cfm.ui.databases;
 import android.app.Application;
 
 import androidx.lifecycle.LiveData;
-import androidx.lifecycle.MutableLiveData;
 
-import com.example.cfm.ui.objects.Playlist;
+import com.example.spotify_framework.Playlist;
 
 import java.util.List;
 
@@ -17,10 +16,9 @@ public class PlaylistRepo {
     public void update(Playlist p){}
 
     public LiveData<List<Playlist>> getAllPlaylists(){
+        return playlists;
          }
     public void setAllPlaylists(List<Playlist> plists){}
-
-
     public PlaylistRepo(Application app) {}
     public PlaylistRepo(){}
 

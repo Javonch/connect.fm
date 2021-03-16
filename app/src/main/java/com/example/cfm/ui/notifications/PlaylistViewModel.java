@@ -3,11 +3,10 @@ package com.example.cfm.ui.notifications;
 import android.app.Application;
 
 import androidx.lifecycle.LiveData;
-import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
 import com.example.cfm.ui.databases.PlaylistRepo;
-import com.example.cfm.ui.objects.Playlist;
+import com.example.spotify_framework.Playlist;
 
 import java.util.List;
 

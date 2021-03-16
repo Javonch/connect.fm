@@ -8,12 +8,11 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
-import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.RecyclerView;
 
 
 import com.example.cfm.R;
-import com.example.cfm.ui.objects.Playlist;
+import com.example.spotify_framework.Playlist;
 
 import java.util.List;
 import java.util.Objects;

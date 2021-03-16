@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-<<<<<<< HEAD
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/connect.fm.iml" filepath="$PROJECT_DIR$/.idea/modules/connect.fm.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/connect.fm.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/connect.fm.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spotify-app-remote/connect.fm.spotify-app-remote.iml" filepath="$PROJECT_DIR$/.idea/modules/spotify-app-remote/connect.fm.spotify-app-remote.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spotify-auth/connect.fm.spotify-auth.iml" filepath="$PROJECT_DIR$/.idea/modules/spotify-auth/connect.fm.spotify-auth.iml" />
-=======
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/cfm.iml" filepath="$PROJECT_DIR$/.idea/modules/cfm.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/cfm.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/cfm.app.iml" />
->>>>>>> dan
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spotify-app-remote/cfm.spotify-app-remote.iml" filepath="$PROJECT_DIR$/.idea/modules/spotify-app-remote/cfm.spotify-app-remote.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spotify-auth/cfm.spotify-auth.iml" filepath="$PROJECT_DIR$/.idea/modules/spotify-auth/cfm.spotify-auth.iml" />
     </modules>
   </component>
 </project>

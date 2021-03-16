@@ -1,4 +1,4 @@
-package com.example.connectfm;
+package com.example.cfm;
 
 import org.junit.Test;
 

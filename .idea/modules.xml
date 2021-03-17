@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cfm.iml" filepath="$PROJECT_DIR$/.idea/modules/cfm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/cfm.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/cfm.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spotify-app-remote/cfm.spotify-app-remote.iml" filepath="$PROJECT_DIR$/.idea/modules/spotify-app-remote/cfm.spotify-app-remote.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spotify-auth/cfm.spotify-auth.iml" filepath="$PROJECT_DIR$/.idea/modules/spotify-auth/cfm.spotify-auth.iml" />
+    </modules>
+  </component>
+</project>

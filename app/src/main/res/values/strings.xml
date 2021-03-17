@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">connect.fm</string>
+    <string name="app_name">cfm</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="com_spotify_sdk_redirect_scheme">https</string>
+    <string name="com_spotify_sdk_redirect_host">example.com/callback/</string>
 </resources>

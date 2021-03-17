@@ -1,6 +1,7 @@
 package com.example.spotify_framework;
 
 import com.example.spotify_framework.Genre;
+import com.example.spotify_framework.Auth.*;
 
 public class Song {
     private String uri;

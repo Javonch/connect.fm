@@ -48,8 +48,16 @@
         "source": "/Users/jtch/connect_fm/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
+        "merged": "/Users/jtch/connect_fm/app/build/intermediates/res/merged/debug/navigation_nav_graph.xml.flat",
+        "source": "/Users/jtch/connect_fm/app/src/main/res/navigation/nav_graph.xml"
+    },
+    {
         "merged": "/Users/jtch/connect_fm/app/build/intermediates/res/merged/debug/drawable_ic_notifications_black_24dp.xml.flat",
         "source": "/Users/jtch/connect_fm/app/src/main/res/drawable/ic_notifications_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/jtch/connect_fm/app/build/intermediates/res/merged/debug/layout_fragment_second.xml.flat",
+        "source": "/Users/jtch/connect_fm/app/src/main/res/layout/fragment_second.xml"
     },
     {
         "merged": "/Users/jtch/connect_fm/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
@@ -62,6 +70,10 @@
     {
         "merged": "/Users/jtch/connect_fm/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
         "source": "/Users/jtch/connect_fm/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/jtch/connect_fm/app/build/intermediates/res/merged/debug/layout_activity_splash.xml.flat",
+        "source": "/Users/jtch/connect_fm/app/src/main/res/layout/activity_splash.xml"
     },
     {
         "merged": "/Users/jtch/connect_fm/app/build/intermediates/res/merged/debug/layout_fragment_notifications.xml.flat",
@@ -86,6 +98,10 @@
     {
         "merged": "/Users/jtch/connect_fm/app/build/intermediates/res/merged/debug/layout_fragment_dashboard.xml.flat",
         "source": "/Users/jtch/connect_fm/app/src/main/res/layout/fragment_dashboard.xml"
+    },
+    {
+        "merged": "/Users/jtch/connect_fm/app/build/intermediates/res/merged/debug/layout_fragment_first.xml.flat",
+        "source": "/Users/jtch/connect_fm/app/src/main/res/layout/fragment_first.xml"
     },
     {
         "merged": "/Users/jtch/connect_fm/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",

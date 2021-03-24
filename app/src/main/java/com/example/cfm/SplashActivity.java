@@ -59,6 +59,7 @@ public class SplashActivity extends AppCompatActivity {
                 }
 
                 default :
+                    Log.d(response.getType() + ": ", response.toString());
             }
         }
     }

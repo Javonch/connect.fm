@@ -1953,6 +1953,7 @@ id line3
 id linear
 id listMode
 id list_item
+id logout
 id masked
 id material_clock_display
 id material_clock_face
@@ -2096,6 +2097,7 @@ id snackbar_action
 id snackbar_text
 id snap
 id snapMargins
+id song
 id spacer
 id spline
 id split_action_bar
@@ -2171,6 +2173,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id user
 id view_offset_helper
 id view_tree_view_model_store_owner
 id visible

@@ -6,101 +6,105 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="22"
-8-->/Users/jtch/connect_fm/app/src/main/AndroidManifest.xml
+8-->C:\Users\David\StudioProjects\connect.fm\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="30" />
-9-->/Users/jtch/connect_fm/app/src/main/AndroidManifest.xml
+9-->C:\Users\David\StudioProjects\connect.fm\app\src\main\AndroidManifest.xml
 10
 11    <queries>
-11-->/Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:5:5-8:15
+11-->C:\Users\David\StudioProjects\connect.fm\app\src\main\AndroidManifest.xml:5:5-8:15
 12        <package android:name="com.spotify.music" />
-12-->/Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:6:9-53
-12-->/Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:6:18-50
+12-->C:\Users\David\StudioProjects\connect.fm\app\src\main\AndroidManifest.xml:6:9-53
+12-->C:\Users\David\StudioProjects\connect.fm\app\src\main\AndroidManifest.xml:6:18-50
 13        <package android:name="com.example.cfm" />
-13-->/Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:7:9-50
-13-->/Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:7:18-48
+13-->C:\Users\David\StudioProjects\connect.fm\app\src\main\AndroidManifest.xml:7:9-50
+13-->C:\Users\David\StudioProjects\connect.fm\app\src\main\AndroidManifest.xml:7:18-48
 14    </queries>
 15
-16    <uses-permission android:name="android.permission.INTERNET" />
-16-->/Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:9:5-67
-16-->/Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:9:22-64
-17
-18    <application
-18-->/Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:10:5-47:19
-19        android:allowBackup="true"
-19-->/Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:11:9-35
-20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-20-->[androidx.core:core:1.3.1] /Users/jtch/.gradle/caches/transforms-2/files-2.1/8dbd859d1cd89239b42e7382b4fc40d7/core-1.3.1/AndroidManifest.xml:24:18-86
-21        android:debuggable="true"
-22        android:icon="@mipmap/ic_launcher"
-22-->/Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:12:9-43
-23        android:label="@string/app_name"
-23-->/Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:13:9-41
-24        android:roundIcon="@mipmap/ic_launcher_round"
-24-->/Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:14:9-54
-25        android:supportsRtl="true"
-25-->/Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:15:9-35
-26        android:theme="@style/Theme.Cfm" >
-26-->/Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:16:9-41
-27        <activity
-27-->/Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:18:9-32:20
-28            android:name="com.spotify.sdk.android.authentication.AuthCallbackActivity"
-28-->/Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:20:13-87
-29            android:exported="true"
-29-->/Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:19:13-36
-30            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-30-->/Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:21:13-72
-31            <intent-filter>
-31-->/Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:23:13-31:29
-32                <action android:name="android.intent.action.VIEW" />
-32-->/Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:24:17-69
-32-->/Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:24:25-66
-33
-34                <category android:name="android.intent.category.DEFAULT" />
-34-->/Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:25:17-76
-34-->/Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:25:27-73
-35                <category android:name="android.intent.category.BROWSABLE" />
-35-->/Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:26:17-77
-35-->/Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:26:27-75
-36
-37                <data
-37-->/Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:28:17-30:76
-38                    android:host="@string/com_spotify_sdk_redirect_host"
-38-->/Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:30:21-73
-39                    android:scheme="@string/com_spotify_sdk_redirect_scheme" />
-39-->/Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:29:21-77
-40            </intent-filter>
-41        </activity>
-42        <activity
-42-->/Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:34:9-38:20
-43            android:name="com.spotify.sdk.android.authentication.LoginActivity"
-43-->/Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:35:13-80
-44            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-44-->/Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:36:13-72
-45        </activity>
-46        <activity
-46-->/Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:39:9-46:20
-47            android:name="com.example.cfm.MainActivity"
-47-->/Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:40:13-41
-48            android:label="@string/app_name" >
-48-->/Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:41:13-45
-49            <intent-filter>
-49-->/Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:42:13-45:29
-50                <action android:name="android.intent.action.MAIN" />
-50-->/Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:43:17-69
-50-->/Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:43:25-66
-51
-52                <category android:name="android.intent.category.LAUNCHER" />
-52-->/Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:44:17-77
-52-->/Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:44:27-74
-53            </intent-filter>
-54        </activity>
-55        <activity
-55-->[:spotify-auth] /Users/jtch/connect_fm/spotify-auth/build/.transforms/eb485c06390787e8c380953e63507117/jetified-spotify-auth-release-1.2.3/AndroidManifest.xml:34:9-37:20
-56            android:name="com.spotify.sdk.android.auth.LoginActivity"
-56-->[:spotify-auth] /Users/jtch/connect_fm/spotify-auth/build/.transforms/eb485c06390787e8c380953e63507117/jetified-spotify-auth-release-1.2.3/AndroidManifest.xml:35:13-70
-57            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-57-->[:spotify-auth] /Users/jtch/connect_fm/spotify-auth/build/.transforms/eb485c06390787e8c380953e63507117/jetified-spotify-auth-release-1.2.3/AndroidManifest.xml:36:13-72
-58        </activity>
-59    </application>
-60
-61</manifest>
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->C:\Users\David\StudioProjects\connect.fm\app\src\main\AndroidManifest.xml:10:5-81
+16-->C:\Users\David\StudioProjects\connect.fm\app\src\main\AndroidManifest.xml:10:22-78
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->C:\Users\David\StudioProjects\connect.fm\app\src\main\AndroidManifest.xml:11:5-67
+17-->C:\Users\David\StudioProjects\connect.fm\app\src\main\AndroidManifest.xml:11:22-64
+18
+19    <application
+19-->C:\Users\David\StudioProjects\connect.fm\app\src\main\AndroidManifest.xml:12:5-49:19
+20        android:allowBackup="true"
+20-->C:\Users\David\StudioProjects\connect.fm\app\src\main\AndroidManifest.xml:13:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.3.1] C:\Users\David\.gradle\caches\transforms-2\files-2.1\8dbd859d1cd89239b42e7382b4fc40d7\core-1.3.1\AndroidManifest.xml:24:18-86
+22        android:debuggable="true"
+23        android:icon="@mipmap/ic_launcher"
+23-->C:\Users\David\StudioProjects\connect.fm\app\src\main\AndroidManifest.xml:14:9-43
+24        android:label="@string/app_name"
+24-->C:\Users\David\StudioProjects\connect.fm\app\src\main\AndroidManifest.xml:15:9-41
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->C:\Users\David\StudioProjects\connect.fm\app\src\main\AndroidManifest.xml:16:9-54
+26        android:supportsRtl="true"
+26-->C:\Users\David\StudioProjects\connect.fm\app\src\main\AndroidManifest.xml:17:9-35
+27        android:testOnly="true"
+28        android:theme="@style/Theme.Cfm" >
+28-->C:\Users\David\StudioProjects\connect.fm\app\src\main\AndroidManifest.xml:18:9-41
+29        <activity
+29-->C:\Users\David\StudioProjects\connect.fm\app\src\main\AndroidManifest.xml:20:9-34:20
+30            android:name="com.spotify.sdk.android.authentication.AuthCallbackActivity"
+30-->C:\Users\David\StudioProjects\connect.fm\app\src\main\AndroidManifest.xml:22:13-87
+31            android:exported="true"
+31-->C:\Users\David\StudioProjects\connect.fm\app\src\main\AndroidManifest.xml:21:13-36
+32            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+32-->C:\Users\David\StudioProjects\connect.fm\app\src\main\AndroidManifest.xml:23:13-72
+33            <intent-filter>
+33-->C:\Users\David\StudioProjects\connect.fm\app\src\main\AndroidManifest.xml:25:13-33:29
+34                <action android:name="android.intent.action.VIEW" />
+34-->C:\Users\David\StudioProjects\connect.fm\app\src\main\AndroidManifest.xml:26:17-69
+34-->C:\Users\David\StudioProjects\connect.fm\app\src\main\AndroidManifest.xml:26:25-66
+35
+36                <category android:name="android.intent.category.DEFAULT" />
+36-->C:\Users\David\StudioProjects\connect.fm\app\src\main\AndroidManifest.xml:27:17-76
+36-->C:\Users\David\StudioProjects\connect.fm\app\src\main\AndroidManifest.xml:27:27-73
+37                <category android:name="android.intent.category.BROWSABLE" />
+37-->C:\Users\David\StudioProjects\connect.fm\app\src\main\AndroidManifest.xml:28:17-77
+37-->C:\Users\David\StudioProjects\connect.fm\app\src\main\AndroidManifest.xml:28:27-75
+38
+39                <data
+39-->C:\Users\David\StudioProjects\connect.fm\app\src\main\AndroidManifest.xml:30:17-32:76
+40                    android:host="@string/com_spotify_sdk_redirect_host"
+40-->C:\Users\David\StudioProjects\connect.fm\app\src\main\AndroidManifest.xml:32:21-73
+41                    android:scheme="@string/com_spotify_sdk_redirect_scheme" />
+41-->C:\Users\David\StudioProjects\connect.fm\app\src\main\AndroidManifest.xml:31:21-77
+42            </intent-filter>
+43        </activity>
+44        <activity
+44-->C:\Users\David\StudioProjects\connect.fm\app\src\main\AndroidManifest.xml:36:9-40:20
+45            android:name="com.spotify.sdk.android.authentication.LoginActivity"
+45-->C:\Users\David\StudioProjects\connect.fm\app\src\main\AndroidManifest.xml:37:13-80
+46            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+46-->C:\Users\David\StudioProjects\connect.fm\app\src\main\AndroidManifest.xml:38:13-72
+47        </activity>
+48        <activity
+48-->C:\Users\David\StudioProjects\connect.fm\app\src\main\AndroidManifest.xml:41:9-48:20
+49            android:name="com.example.cfm.MainActivity"
+49-->C:\Users\David\StudioProjects\connect.fm\app\src\main\AndroidManifest.xml:42:13-41
+50            android:label="@string/app_name" >
+50-->C:\Users\David\StudioProjects\connect.fm\app\src\main\AndroidManifest.xml:43:13-45
+51            <intent-filter>
+51-->C:\Users\David\StudioProjects\connect.fm\app\src\main\AndroidManifest.xml:44:13-47:29
+52                <action android:name="android.intent.action.MAIN" />
+52-->C:\Users\David\StudioProjects\connect.fm\app\src\main\AndroidManifest.xml:45:17-69
+52-->C:\Users\David\StudioProjects\connect.fm\app\src\main\AndroidManifest.xml:45:25-66
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->C:\Users\David\StudioProjects\connect.fm\app\src\main\AndroidManifest.xml:46:17-77
+54-->C:\Users\David\StudioProjects\connect.fm\app\src\main\AndroidManifest.xml:46:27-74
+55            </intent-filter>
+56        </activity>
+57        <activity
+57-->[:spotify-auth] C:\Users\David\StudioProjects\connect.fm\spotify-auth\build\.transforms\c6078b14fbb4fbf6629c31d162b8702f\jetified-spotify-auth-release-1.2.3\AndroidManifest.xml:34:9-37:20
+58            android:name="com.spotify.sdk.android.auth.LoginActivity"
+58-->[:spotify-auth] C:\Users\David\StudioProjects\connect.fm\spotify-auth\build\.transforms\c6078b14fbb4fbf6629c31d162b8702f\jetified-spotify-auth-release-1.2.3\AndroidManifest.xml:35:13-70
+59            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+59-->[:spotify-auth] C:\Users\David\StudioProjects\connect.fm\spotify-auth\build\.transforms\c6078b14fbb4fbf6629c31d162b8702f\jetified-spotify-auth-release-1.2.3\AndroidManifest.xml:36:13-72
+60        </activity>
+61    </application>
+62
+63</manifest>

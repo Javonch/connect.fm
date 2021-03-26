@@ -1,12 +1,15 @@
-com/example/spotify_framework/Auth/SpotifyLogin.java
- com.example.spotify_framework.Auth.SpotifyLogin
+com/example/cfm/ui/home/HomeFragment.java
+ com.example.cfm.ui.home.HomeFragment
+ com.example.cfm.ui.home.HomeFragment$1
 com/example/cfm/ui/dashboard/DashboardViewModel.java
  com.example.cfm.ui.dashboard.DashboardViewModel
+com/example/cfm/ui/notifications/PlaylistFragment.java
+ com.example.cfm.ui.notifications.PlaylistFragment
+ com.example.cfm.ui.notifications.PlaylistFragment$1
+ com.example.cfm.ui.notifications.PlaylistFragment$2
 com/example/cfm/ui/dashboard/DashboardFragment.java
  com.example.cfm.ui.dashboard.DashboardFragment
  com.example.cfm.ui.dashboard.DashboardFragment$1
-com/example/cfm/MainActivity.java
- com.example.cfm.MainActivity
 com/example/spotify_framework/Playlist.java
  com.example.spotify_framework.Playlist
 com/example/spotify_framework/Genre.java
@@ -26,10 +29,7 @@ com/example/cfm/ui/notifications/PlaylistAdapter.java
  com.example.cfm.ui.notifications.PlaylistAdapter$TaskViewHolder
 com/example/cfm/BuildConfig.java
  com.example.cfm.BuildConfig
-com/example/cfm/ui/notifications/PlaylistFragment.java
- com.example.cfm.ui.notifications.PlaylistFragment
- com.example.cfm.ui.notifications.PlaylistFragment$1
- com.example.cfm.ui.notifications.PlaylistFragment$2
-com/example/cfm/ui/home/HomeFragment.java
- com.example.cfm.ui.home.HomeFragment
- com.example.cfm.ui.home.HomeFragment$1
+com/example/spotify_framework/Auth/SpotifyLogin.java
+ com.example.spotify_framework.Auth.SpotifyLogin
+com/example/cfm/MainActivity.java
+ com.example.cfm.MainActivity

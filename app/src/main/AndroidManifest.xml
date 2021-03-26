@@ -6,6 +6,8 @@
         <package android:name="com.spotify.music" />
         <package android:name="com.example.cfm"/>
     </queries>
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
     <application
         android:allowBackup="true"

@@ -8,10 +8,9 @@ com/example/spotify_framework/UserService.java
 com/example/cfm/ui/dashboard/DashboardFragment.java
  com.example.cfm.ui.dashboard.DashboardFragment
  com.example.cfm.ui.dashboard.DashboardFragment$1
-com/example/cfm/ui/notifications/PlaylistFragment.java
- com.example.cfm.ui.notifications.PlaylistFragment
- com.example.cfm.ui.notifications.PlaylistFragment$1
- com.example.cfm.ui.notifications.PlaylistFragment$2
+com/example/cfm/MainActivity.java
+ com.example.cfm.MainActivity
+ com.example.cfm.MainActivity$1
 com/example/spotify_framework/Playlist.java
  com.example.spotify_framework.Playlist
 com/example/spotify_framework/Genre.java
@@ -26,9 +25,9 @@ com/example/cfm/FirstFragment.java
 com/example/cfm/SecondFragment.java
  com.example.cfm.SecondFragment
  com.example.cfm.SecondFragment$1
-com/example/cfm/ui/home/HomeFragment.java
- com.example.cfm.ui.home.HomeFragment
- com.example.cfm.ui.home.HomeFragment$1
+com/example/cfm/SplashActivity.java
+ com.example.cfm.SplashActivity
+ com.example.cfm.SplashActivity$1
 com/example/spotify_framework/VolleyCallBack.java
  com.example.spotify_framework.VolleyCallBack
 com/example/cfm/ui/notifications/PlaylistViewModel.java
@@ -45,9 +44,10 @@ com/example/cfm/ui/notifications/PlaylistAdapter.java
  com.example.cfm.ui.notifications.PlaylistAdapter$TaskViewHolder
 com/example/cfm/BuildConfig.java
  com.example.cfm.BuildConfig
-com/example/cfm/SplashActivity.java
- com.example.cfm.SplashActivity
- com.example.cfm.SplashActivity$1
-com/example/cfm/MainActivity.java
- com.example.cfm.MainActivity
- com.example.cfm.MainActivity$1
+com/example/cfm/ui/notifications/PlaylistFragment.java
+ com.example.cfm.ui.notifications.PlaylistFragment
+ com.example.cfm.ui.notifications.PlaylistFragment$1
+ com.example.cfm.ui.notifications.PlaylistFragment$2
+com/example/cfm/ui/home/HomeFragment.java
+ com.example.cfm.ui.home.HomeFragment
+ com.example.cfm.ui.home.HomeFragment$1

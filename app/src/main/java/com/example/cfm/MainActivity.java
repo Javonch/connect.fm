@@ -21,20 +21,17 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.Volley;
 import com.example.spotify_framework.Song;
 import com.example.spotify_framework.SongService;
-=======
+
 //import com.android.volley.RequestQueue;
 //import com.android.volley.toolbox.Volley;
->>>>>>> 4feca7537b48f32077bd8555a206c8c8406af863
-=======
+
 //import com.android.volley.RequestQueue;
 //import com.android.volley.toolbox.Volley;
->>>>>>> 4feca7537b48f32077bd8555a206c8c8406af863
 import com.example.spotify_framework.UserService;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -56,13 +53,11 @@ public class MainActivity extends AppCompatActivity {
     private Button logoutButton;
     private ImageView albums;
 
-<<<<<<< HEAD
     private Song song;
     private SongService songService;
     private ArrayList<Song> recentlyPlayed;
 
-=======
->>>>>>> 4feca7537b48f32077bd8555a206c8c8406af863
+
     @RequiresApi(api = Build.VERSION_CODES.R)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -87,8 +82,6 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(navView, navController);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
         getTracks();
 
 
@@ -121,11 +114,9 @@ public class MainActivity extends AppCompatActivity {
         editor.clear();
         Intent intent = new Intent(MainActivity.this, SplashActivity.class);
         startActivity(intent);
-=======
-=======
->>>>>>> 4feca7537b48f32077bd8555a206c8c8406af863
-        checkPermissions(AppOpsManager.OPSTR_COARSE_LOCATION, Settings.ACTION_LOCATION_SOURCE_SETTINGS);
-        testLocation();
+
+       // checkPermissions(AppOpsManager.OPSTR_COARSE_LOCATION, Settings.ACTION_LOCATION_SOURCE_SETTINGS);
+       //testLocation();
     }
 
     @RequiresApi(api = Build.VERSION_CODES.M)
@@ -147,9 +138,6 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
         Location l = lm.getLastKnownLocation(provider);
-<<<<<<< HEAD
->>>>>>> 4feca7537b48f32077bd8555a206c8c8406af863
-=======
->>>>>>> 4feca7537b48f32077bd8555a206c8c8406af863
+
     }
 }

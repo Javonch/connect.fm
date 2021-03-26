@@ -3,10 +3,6 @@ package com.example.spotify_framework;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-import okhttp3.OkHttpClient;
-import okhttp3.internal.http2.Header;
-
-
 public class Song {
     private String id;
     private String uri;

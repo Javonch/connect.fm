@@ -1,27 +1,33 @@
 package com.example.spotify_framework;
 
-import com.example.spotify_framework.Genre;
+import android.os.Parcel;
+import android.os.Parcelable;
 
 public class Song {
+    private String id;
     private String uri;
-    private int danceability;
-    private int bpm;
-    private Genre genre;
+    private String title;
+    private String album;
+    private String album_image;
+    private long duration;
+    private String artist;
+    private String artist_id;
+    private boolean playing;
 
-    public void Song(String uri) {
-
+    public Song(String id, String title) {
+        this.title = title;
+        this.id = id;
     }
 
-    public int getDanceability() {
-        return danceability;
+    public String getId() {
+        return id;
     }
 
-    public int getBpm() {
-        return bpm;
+    public String getTitle() {
+        return title;
     }
 
-    public Genre getGenre() {
-        return genre;
+    public void setTitle() {
+        this.title = title;
     }
-
 }

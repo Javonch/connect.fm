@@ -1,15 +1,16 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:2:1-48:12
-INJECTED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:2:1-48:12
-INJECTED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:2:1-48:12
-INJECTED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:2:1-48:12
+ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:2:1-55:12
+INJECTED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:2:1-55:12
+INJECTED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:2:1-55:12
+INJECTED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:2:1-55:12
 MERGED from [:spotify-auth] /Users/jtch/connect_fm/spotify-auth/build/.transforms/eb485c06390787e8c380953e63507117/jetified-spotify-auth-release-1.2.3/AndroidManifest.xml:22:1-40:12
 MERGED from [com.spotify.android:auth:1.2.3] /Users/jtch/.gradle/caches/transforms-2/files-2.1/3b3d070ade9b41a9599d28fe35d6914c/jetified-auth-1.2.3/AndroidManifest.xml:22:1-40:12
 MERGED from [androidx.navigation:navigation-ui:2.3.3] /Users/jtch/.gradle/caches/transforms-2/files-2.1/9773cf80f63a729525da08ed7d917aac/navigation-ui-2.3.3/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.3.0] /Users/jtch/.gradle/caches/transforms-2/files-2.1/0b040ae6fd7360855475a012c5af81a6/material-1.3.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/jtch/.gradle/caches/transforms-2/files-2.1/73327337a728e12c5c3cdecdb4b7e327/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/jtch/.gradle/caches/transforms-2/files-2.1/44b21666f861b2b454523071d69d07d7/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.volley:volley:1.1.0] /Users/jtch/.gradle/caches/transforms-2/files-2.1/4dfabde9f9cf43eab198a0f0ea4b259c/jetified-volley-1.1.0/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.navigation:navigation-fragment:2.3.3] /Users/jtch/.gradle/caches/transforms-2/files-2.1/4a9be6be89a34c4336fa489463f820c4/navigation-fragment-2.3.3/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.0] /Users/jtch/.gradle/caches/transforms-2/files-2.1/a293b0e3e9c4c71ba939a5e46f481f35/jetified-lifecycle-livedata-ktx-2.3.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.0] /Users/jtch/.gradle/caches/transforms-2/files-2.1/188b30c1f7e7361c4d9b1a84f91bf2df/jetified-lifecycle-viewmodel-ktx-2.3.0/AndroidManifest.xml:17:1-24:12
@@ -52,45 +53,49 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/jtch/.gradle/cache
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/jtch/.gradle/caches/transforms-2/files-2.1/41c41c2fbc05e9a19fa443c48f799c3d/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/jtch/.gradle/caches/transforms-2/files-2.1/634f2f03e50a0eb4514a8d791ceb2f13/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/jtch/.gradle/caches/transforms-2/files-2.1/3fd5b4b866d23b43b0e15439a0ee99e7/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:2:1-48:12
-INJECTED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:2:1-48:12
-INJECTED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:2:1-48:12
+INJECTED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:2:1-55:12
+INJECTED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:2:1-55:12
+INJECTED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:2:1-55:12
 	package
 		ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:4:5-30
 		INJECTED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml
-		ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:2:1-48:12
+		ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:2:1-55:12
 		INJECTED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml
-		ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:2:1-48:12
+		ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:2:1-55:12
 		INJECTED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:2:11-69
-queries
-ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:5:5-8:15
-package#com.spotify.music
-ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:6:9-53
-	android:name
-		ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:6:18-50
-package#com.example.cfm
-ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:7:9-50
-	android:name
-		ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:7:18-48
 uses-permission#android.permission.INTERNET
-ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:9:5-67
+ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:6:5-67
 MERGED from [:spotify-auth] /Users/jtch/connect_fm/spotify-auth/build/.transforms/eb485c06390787e8c380953e63507117/jetified-spotify-auth-release-1.2.3/AndroidManifest.xml:31:5-67
 MERGED from [:spotify-auth] /Users/jtch/connect_fm/spotify-auth/build/.transforms/eb485c06390787e8c380953e63507117/jetified-spotify-auth-release-1.2.3/AndroidManifest.xml:31:5-67
 MERGED from [com.spotify.android:auth:1.2.3] /Users/jtch/.gradle/caches/transforms-2/files-2.1/3b3d070ade9b41a9599d28fe35d6914c/jetified-auth-1.2.3/AndroidManifest.xml:31:5-67
 MERGED from [com.spotify.android:auth:1.2.3] /Users/jtch/.gradle/caches/transforms-2/files-2.1/3b3d070ade9b41a9599d28fe35d6914c/jetified-auth-1.2.3/AndroidManifest.xml:31:5-67
 	android:name
-		ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:9:22-64
+		ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:6:22-64
+queries
+ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:8:5-11:15
+package#com.spotify.music
+ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:9:9-53
+	android:name
+		ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:9:18-50
+package#com.example.cfm
+ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:10:9-51
+	android:name
+		ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:10:18-48
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:13:22-78
 application
-ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:10:5-47:19
+ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:15:5-53:19
 MERGED from [:spotify-auth] /Users/jtch/connect_fm/spotify-auth/build/.transforms/eb485c06390787e8c380953e63507117/jetified-spotify-auth-release-1.2.3/AndroidManifest.xml:33:5-38:19
 MERGED from [:spotify-auth] /Users/jtch/connect_fm/spotify-auth/build/.transforms/eb485c06390787e8c380953e63507117/jetified-spotify-auth-release-1.2.3/AndroidManifest.xml:33:5-38:19
 MERGED from [com.spotify.android:auth:1.2.3] /Users/jtch/.gradle/caches/transforms-2/files-2.1/3b3d070ade9b41a9599d28fe35d6914c/jetified-auth-1.2.3/AndroidManifest.xml:33:5-38:19
@@ -99,6 +104,8 @@ MERGED from [com.google.android.material:material:1.3.0] /Users/jtch/.gradle/cac
 MERGED from [com.google.android.material:material:1.3.0] /Users/jtch/.gradle/caches/transforms-2/files-2.1/0b040ae6fd7360855475a012c5af81a6/material-1.3.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/jtch/.gradle/caches/transforms-2/files-2.1/73327337a728e12c5c3cdecdb4b7e327/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/jtch/.gradle/caches/transforms-2/files-2.1/73327337a728e12c5c3cdecdb4b7e327/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.0] /Users/jtch/.gradle/caches/transforms-2/files-2.1/4dfabde9f9cf43eab198a0f0ea4b259c/jetified-volley-1.1.0/AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.0] /Users/jtch/.gradle/caches/transforms-2/files-2.1/4dfabde9f9cf43eab198a0f0ea4b259c/jetified-volley-1.1.0/AndroidManifest.xml:9:5-20
 MERGED from [androidx.core:core:1.3.1] /Users/jtch/.gradle/caches/transforms-2/files-2.1/8dbd859d1cd89239b42e7382b4fc40d7/core-1.3.1/AndroidManifest.xml:24:5-89
 MERGED from [androidx.core:core:1.3.1] /Users/jtch/.gradle/caches/transforms-2/files-2.1/8dbd859d1cd89239b42e7382b4fc40d7/core-1.3.1/AndroidManifest.xml:24:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/jtch/.gradle/caches/transforms-2/files-2.1/1b49f6b12087442447a2c9046372b97f/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
@@ -106,71 +113,75 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/jtch
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.1] /Users/jtch/.gradle/caches/transforms-2/files-2.1/8dbd859d1cd89239b42e7382b4fc40d7/core-1.3.1/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:15:9-35
+		ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:20:9-35
 	android:label
-		ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:13:9-41
+		ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:18:9-41
 	android:roundIcon
-		ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:14:9-54
+		ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:19:9-54
 	android:icon
-		ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:12:9-43
+		ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:17:9-43
 	android:allowBackup
-		ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:11:9-35
+		ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:16:9-35
 	android:theme
-		ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:16:9-41
-activity#com.spotify.sdk.android.authentication.AuthCallbackActivity
-ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:18:9-32:20
-	android:exported
-		ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:19:13-36
-	tools:ignore
-		ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:22:13-40
-	android:theme
-		ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:21:13-72
-	android:name
-		ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:20:13-87
-intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:@string/com_spotify_sdk_redirect_host+data:scheme:@string/com_spotify_sdk_redirect_scheme
-ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:23:13-31:29
-action#android.intent.action.VIEW
-ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:24:17-69
-	android:name
-		ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:24:25-66
-category#android.intent.category.DEFAULT
-ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:25:17-76
-	android:name
-		ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:25:27-73
-category#android.intent.category.BROWSABLE
-ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:26:17-77
-	android:name
-		ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:26:27-75
-data
-ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:28:17-30:76
-	android:host
-		ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:30:21-73
-	android:scheme
-		ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:29:21-77
-activity#com.spotify.sdk.android.authentication.LoginActivity
-ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:34:9-38:20
-	tools:ignore
-		ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:37:13-40
-	android:theme
-		ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:36:13-72
-	android:name
-		ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:35:13-80
-activity#com.example.cfm.MainActivity
-ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:39:9-46:20
+		ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:21:9-41
+activity#com.example.cfm.SplashActivity
+ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:22:9-29:20
 	android:label
-		ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:41:13-45
+		ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:24:13-45
 	android:name
-		ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:40:13-41
+		ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:23:13-43
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:42:13-45:29
+ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:25:13-28:29
 action#android.intent.action.MAIN
-ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:43:17-69
+ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:26:17-69
 	android:name
-		ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:43:25-66
+		ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:26:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:44:17-77
+ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:27:17-77
 	android:name
-		ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:44:27-74
+		ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:27:27-74
+activity#com.spotify.sdk.android.authentication.AuthCallbackActivity
+ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:30:9-45:20
+	android:exported
+		ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:32:13-36
+	tools:ignore
+		ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:34:13-40
+	android:theme
+		ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:33:13-72
+	android:name
+		ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:31:13-87
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:@string/com_spotify_sdk_redirect_host+data:scheme:@string/com_spotify_sdk_redirect_scheme
+ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:35:13-44:29
+action#android.intent.action.VIEW
+ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:36:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:38:17-76
+	android:name
+		ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:38:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:39:17-78
+	android:name
+		ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:39:27-75
+data
+ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:41:17-43:80
+	android:host
+		ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:42:21-73
+	android:scheme
+		ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:43:21-77
+activity#com.spotify.sdk.android.authentication.LoginActivity
+ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:46:9-49:43
+	tools:ignore
+		ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:49:13-40
+	android:theme
+		ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:48:13-72
+	android:name
+		ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:47:13-80
+activity#com.example.cfm.MainActivity
+ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:50:9-52:25
+	android:name
+		ADDED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml:51:13-41
 uses-sdk
 INJECTED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/jtch/connect_fm/app/src/main/AndroidManifest.xml
@@ -187,6 +198,8 @@ MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/jtch/.grad
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/jtch/.gradle/caches/transforms-2/files-2.1/73327337a728e12c5c3cdecdb4b7e327/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/jtch/.gradle/caches/transforms-2/files-2.1/44b21666f861b2b454523071d69d07d7/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/jtch/.gradle/caches/transforms-2/files-2.1/44b21666f861b2b454523071d69d07d7/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.volley:volley:1.1.0] /Users/jtch/.gradle/caches/transforms-2/files-2.1/4dfabde9f9cf43eab198a0f0ea4b259c/jetified-volley-1.1.0/AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.0] /Users/jtch/.gradle/caches/transforms-2/files-2.1/4dfabde9f9cf43eab198a0f0ea4b259c/jetified-volley-1.1.0/AndroidManifest.xml:7:5-43
 MERGED from [androidx.navigation:navigation-fragment:2.3.3] /Users/jtch/.gradle/caches/transforms-2/files-2.1/4a9be6be89a34c4336fa489463f820c4/navigation-fragment-2.3.3/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-fragment:2.3.3] /Users/jtch/.gradle/caches/transforms-2/files-2.1/4a9be6be89a34c4336fa489463f820c4/navigation-fragment-2.3.3/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.0] /Users/jtch/.gradle/caches/transforms-2/files-2.1/a293b0e3e9c4c71ba939a5e46f481f35/jetified-lifecycle-livedata-ktx-2.3.0/AndroidManifest.xml:20:5-22:41

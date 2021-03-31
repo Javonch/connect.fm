@@ -1,5 +1,0 @@
-include ':geohash'
-include ':spotify-auth'
-include ':spotify-app-remote'
-include ':app'
-rootProject.name = "cfm"

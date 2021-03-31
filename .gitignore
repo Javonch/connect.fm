@@ -93,5 +93,5 @@ spotify-app-remote/
 obj/
 .externalNativeBuild
 .DS_Store
-
+*.json
 .idea/

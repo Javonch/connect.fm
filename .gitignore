@@ -95,3 +95,4 @@ obj/
 .DS_Store
 *.json
 .idea/
+app/build/intermediates

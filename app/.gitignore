@@ -18,7 +18,8 @@ local.properties
 
                 
 # OSX files
-.DS_Store
+*.DS_Store
+
                             
 # Android Studio
 *.iml
@@ -28,6 +29,7 @@ local.properties
 captures/
 output.json
 spotify-auth/
+app/builds/output/logs
     
 #NDK
 obj/

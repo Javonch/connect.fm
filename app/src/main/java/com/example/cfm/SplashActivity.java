@@ -23,6 +23,8 @@ import com.spotify.sdk.android.auth.AuthorizationClient;
 import com.spotify.sdk.android.auth.AuthorizationRequest;
 import com.spotify.sdk.android.auth.AuthorizationResponse;
 
+import java.util.Map;
+
 public class SplashActivity extends AppCompatActivity {
     //Spotify Authorization fields
     private SharedPreferences.Editor editor;
@@ -44,7 +46,7 @@ public class SplashActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_splash);
 
-        authenticateSpotify();
+        UserService.authenticateSpotify(clientId, redirectUri,reqCode,scopes,this);
         preferences = this.getSharedPreferences("SPOTIFY", 0);
         queue = Volley.newRequestQueue(this);
     }
@@ -66,6 +68,10 @@ public class SplashActivity extends AppCompatActivity {
                 case TOKEN : {
                     editor = getSharedPreferences("SPOTIFY",0).edit();
                     editor.putString("token", response.getAccessToken());
+                    Map prefs = getSharedPreferences("SPOTIFY",0).getAll();
+                    for(Object x : prefs.keySet().toArray()) {
+                        Log.d("Prefs",x + ": " + prefs.get(x));
+                    }
                     Log.d("STARTING", "AUTH TOKEN "+ response.getAccessToken());
                     editor.apply();
                     waitForUserInfo();
@@ -78,19 +84,9 @@ public class SplashActivity extends AppCompatActivity {
 
                 default :
                     Log.d(response.getType() + ": ", response.toString());
+                    onActivityResult(requestCode,resultCode,intent);
             }
         }
-    }
-
-    protected void authenticateSpotify() {
-        AuthorizationRequest.Builder builder = new AuthorizationRequest.Builder(
-                clientId,
-                AuthorizationResponse.Type.TOKEN,
-                redirectUri);
-
-        builder.setScopes(scopes);
-        AuthorizationRequest request = builder.build();
-        AuthorizationClient.openLoginActivity(this,reqCode,request);
     }
 
     private void waitForUserInfo() {
@@ -99,6 +95,8 @@ public class SplashActivity extends AppCompatActivity {
             User user = userService.getUser();
             editor = getSharedPreferences("SPOTIFY", 0).edit();
             editor.putString("userid", user.id);
+            editor.putString("displayName", user.display_name);
+            editor.putString("country", user.country);
             Log.d("STARTING", "GOT USER INFORMATION");
             // We use commit instead of apply because we need the information stored immediately
             editor.commit();

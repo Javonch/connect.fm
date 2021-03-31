@@ -1,11 +1,17 @@
 package com.example.spotify_framework;
 
+import android.app.Activity;
+import android.content.Context;
 import android.content.SharedPreferences;
+import android.util.Log;
 
 import com.android.volley.AuthFailureError;
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.google.gson.Gson;
+import com.spotify.sdk.android.auth.AuthorizationClient;
+import com.spotify.sdk.android.auth.AuthorizationRequest;
+import com.spotify.sdk.android.auth.AuthorizationResponse;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -28,6 +34,7 @@ public class UserService {
     public void get(final VolleyCallBack callBack) {
         JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(ENDPOINT, null, response -> {
             Gson gson = new Gson();
+            Log.d("User Response",response.toString());
             user = gson.fromJson(response.toString(), User.class);
             callBack.onSuccess();
         }, error -> get(() -> {
@@ -44,4 +51,16 @@ public class UserService {
         };
         queue.add(jsonObjectRequest);
     }
+
+    public static void authenticateSpotify(String clientId, String redirectUri, int reqCode, String[] scopes, Context context) {
+        AuthorizationRequest.Builder builder = new AuthorizationRequest.Builder(
+                clientId,
+                AuthorizationResponse.Type.TOKEN,
+                redirectUri);
+
+        builder.setScopes(scopes);
+        AuthorizationRequest request = builder.build();
+        AuthorizationClient.openLoginActivity((Activity) context,reqCode,request);
+    }
+
 }

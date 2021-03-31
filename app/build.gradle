@@ -37,8 +37,6 @@ android {
 }
 
 dependencies {
-    implementation 'com.github.kaaes:spotify-web-api-android:0.4.1'
-    implementation 'com.squareup.okhttp3:okhttp:3.12.0'
     implementation project (':spotify-auth')
     implementation 'com.spotify.android:auth:1.2.3'
     implementation 'com.google.code.gson:gson:2.8.5'

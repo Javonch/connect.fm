@@ -28,6 +28,7 @@ com/example/cfm/SecondFragment.java
 com/example/cfm/SplashActivity.java
  com.example.cfm.SplashActivity
  com.example.cfm.SplashActivity$1
+ com.example.cfm.SplashActivity$2
 com/example/spotify_framework/VolleyCallBack.java
  com.example.spotify_framework.VolleyCallBack
 com/example/cfm/ui/notifications/PlaylistViewModel.java

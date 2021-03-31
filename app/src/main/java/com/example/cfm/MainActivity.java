@@ -13,6 +13,8 @@ import android.os.Bundle;
 import android.provider.Settings;
 
 import android.content.SharedPreferences;
+import android.content.pm.PackageManager;
+import android.location.Location;
 import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
@@ -33,6 +35,8 @@ import com.example.spotify_framework.SongService;
 //import com.android.volley.RequestQueue;
 //import com.android.volley.toolbox.Volley;
 import com.example.spotify_framework.UserService;
+import com.google.android.gms.location.LocationServices;
+import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import androidx.annotation.RequiresApi;
@@ -42,6 +46,10 @@ import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
+
+import com.spotify.sdk.android.auth.AuthorizationClient;
+import com.spotify.sdk.android.auth.AuthorizationRequest;
+import com.spotify.sdk.android.auth.AuthorizationResponse;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
@@ -61,6 +69,7 @@ public class MainActivity extends AppCompatActivity {
     @RequiresApi(api = Build.VERSION_CODES.R)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        System.out.println("debugging stuff");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
@@ -138,6 +147,5 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
         Location l = lm.getLastKnownLocation(provider);
-
     }
 }
